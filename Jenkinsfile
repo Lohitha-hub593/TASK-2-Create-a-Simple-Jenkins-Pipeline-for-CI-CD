@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/your-image-name:latest'
+        DOCKER_IMAGE = 'lohitha98/nodejs:latest'
     }
 
     stages {
